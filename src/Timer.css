@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Montserrat:wght@900&display=swap');
+
+.app {
+  position: relative;
+  text-align: center;
+  background: linear-gradient(-50deg,  #F3E9DD 0%,#A97155 100%);
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.time {
+  font-size: 540px;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  font-family: 'Montserrat', sans-serif;
+  color: #FDF6EC
+}
+
+.row {
+  padding-right: 100px;
+  align-items: left;
+  justify-content:center;
+  width: 30%;
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+
+.button {
+  padding: .6rem 1.5rem;
+  margin: .4rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: .8rem;
+  border-style: groove;
+  background-color: #406882;
+  border: 1px solid #F3E9DD;
+  color: #FDF6EC;
+}
+
+.button:focus {
+  outline-width: 0;
+}
+
+.button-primary:hover {
+  background-color: #6998AB;
+  color:#FDF6EC;
+  border: 1px solid #F3E9DD;
+}
+
+.button-primary-active {
+  background-color: #6998AB;
+  border: 1px solid #F3E9DD;
+  color: #FDF6EC;
+}
+
+.button-primary-inactive {
+  background-color: #406882;
+  border: 1px solid #F3E9DD;
+  color: #FDF6EC;
+}
+
+.btnfos {
+  color:#406882;
+  padding: .6rem 1.5rem;
+  margin: .4rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.0rem;
+  border: 0cm;
+  background-color: transparent;
+}
+
+.btnfos-2 {
+  letter-spacing: 0;
+}
+
+.btnfos-2:hover,
+.btnfos-2:active {
+  letter-spacing: 5px;
+}
+
+.btnfos-2:after,
+.btnfos-2:before {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border: 1px solid rgba(255, 255, 255, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  -webkit-transition: all 280ms ease-in-out;
+          transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+.btnfos-2:hover:after,
+.btnfos-2:hover:before {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border-color: #FDF6EC;
+  -webkit-transition: width 350ms ease-in-out;
+          transition: width 350ms ease-in-out;
+  width: 70%;
+}
+
+.btnfos-2:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
+}
+
+.input{
+  border:0cm;
+  border-radius: 5px;
+  text-align: center;
+  width: 70%;
+}
