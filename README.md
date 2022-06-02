@@ -9,7 +9,6 @@ Tendremos un solo componente en donde manejaremos los estados y nuestra UI, con 
 Se debe ejecutar 'npm install' en la consola para instalar las dependencias y una vez instaladas, inicializamos el proyecyo con 'npm start'.
 
 # Counter
-<br> </br>
 <p align="center">
   <img height="400" src = "./countdown.png"/>
   <br> </br>
